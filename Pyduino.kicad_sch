@@ -6971,6 +6971,12 @@
 		(uuid "1f33205b-6c20-4b85-a3c9-03f664a3063c")
 	)
 	(junction
+		(at 238.76 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1feda1d0-8582-4847-82e5-eec9d354d0c4")
+	)
+	(junction
 		(at 208.28 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6993,12 +6999,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39a20d4b-928d-41fd-a6b3-6628041b92d7")
-	)
-	(junction
-		(at 69.85 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bd5eb4b-91e5-404a-b02c-eb9d8b67e91a")
 	)
 	(junction
 		(at 207.01 93.98)
@@ -7115,12 +7115,6 @@
 		(uuid "9a6da2a7-20a9-44f5-bcca-e5165e603da0")
 	)
 	(junction
-		(at 238.76 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a01cfee0-dfd2-4e33-8347-a3ff03caba1e")
-	)
-	(junction
 		(at 109.22 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7191,6 +7185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca9baad9-8dc3-4409-8a3c-b06b45682eb1")
+	)
+	(junction
+		(at 69.85 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d21aa578-3782-4860-98d4-ca868a999978")
 	)
 	(junction
 		(at 39.37 40.64)
@@ -7549,16 +7549,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 80.01) (xy 207.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f32599a-93ee-4a5f-9389-4ec9e1f71e26")
-	)
-	(wire
-		(pts
 			(xy 138.43 71.12) (xy 146.05 71.12)
 		)
 		(stroke
@@ -7596,6 +7586,16 @@
 			(type default)
 		)
 		(uuid "2415bc13-1198-4dac-864c-babba38465c6")
+	)
+	(wire
+		(pts
+			(xy 69.85 186.69) (xy 69.85 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241dafbc-5e9c-42df-bc1d-d924192745f4")
 	)
 	(wire
 		(pts
@@ -7729,7 +7729,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 190.5) (xy 72.39 190.5)
+			(xy 69.85 186.69) (xy 72.39 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7789,7 +7789,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 190.5) (xy 72.39 185.42)
+			(xy 72.39 186.69) (xy 72.39 185.42)
 		)
 		(stroke
 			(width 0)
@@ -8949,7 +8949,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 185.42) (xy 69.85 190.5)
+			(xy 69.85 185.42) (xy 69.85 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9369,16 +9369,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 195.58) (xy 69.85 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6458964-2c35-4788-98d5-755a193df54d")
-	)
-	(wire
-		(pts
 			(xy 121.92 139.7) (xy 128.27 139.7)
 		)
 		(stroke
@@ -9737,16 +9727,6 @@
 			(type default)
 		)
 		(uuid "f8127a05-3dc3-4105-b4d5-26f7b636f1a9")
-	)
-	(wire
-		(pts
-			(xy 207.01 86.36) (xy 207.01 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ac7f8d-a39e-4d9c-b3ed-2c92cd583fe3")
 	)
 	(wire
 		(pts
@@ -10749,84 +10729,6 @@
 		(uuid "ffd42743-5193-449a-bd5c-0e8e4882b64a")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 238.76 125.73 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "03791032-63d7-4675-bd91-9a73d654cbc7")
-		(property "Reference" "#PWR030"
-			(at 238.76 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 238.76 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d82c8ba1-0eb5-4fec-88cb-1ca3d28c48a1")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 143.51 25.4 0)
 		(unit 1)
@@ -11259,6 +11161,84 @@
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 238.76 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16d78686-3af2-494b-907d-c6b7dca95268")
+		(property "Reference" "#PWR015"
+			(at 238.76 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 238.76 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 238.76 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "593174ab-51ed-4f3e-99fa-fd08f2aa3031")
+		)
+		(instances
+			(project "Pyduino"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12702,98 +12682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 207.01 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4317f689-88b7-4b4e-9a1b-7dce31ff8676")
-		(property "Reference" "C4"
-			(at 208.915 84.455 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 203.835 86.995 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 207.01 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C49678"
-			(at 207.01 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56c34eb1-a232-49bc-b63a-9b36c633d8da")
-		)
-		(pin "2"
-			(uuid "20d75bfc-079e-4f37-bc7e-dbb366b18660")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 143.51 21.59 0)
 		(unit 1)
@@ -13838,7 +13726,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 69.85 195.58 0)
+		(at 69.85 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13849,7 +13737,7 @@
 		(fields_autoplaced yes)
 		(uuid "676b7c97-7098-45f2-9be7-b347e2be07be")
 		(property "Reference" "#PWR05"
-			(at 69.85 201.93 0)
+			(at 69.85 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13860,7 +13748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 69.85 200.66 0)
+			(at 69.85 195.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13870,7 +13758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 195.58 0)
+			(at 69.85 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13881,7 +13769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 195.58 0)
+			(at 69.85 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13892,7 +13780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 195.58 0)
+			(at 69.85 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16467,83 +16355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 207.01 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b49030cc-2552-4ff3-8e44-074d9bd37572")
-		(property "Reference" "#PWR0111"
-			(at 207.01 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.185 88.265 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 207.01 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b48cf95e-5874-4591-99da-ec0f6b467479")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 217.17 93.98 0)
 		(unit 1)
@@ -17661,6 +17472,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 262.89 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4c943c1-1646-4ecb-93f4-4f3b65074642")
+		(property "Reference" "#PWR019"
+			(at 262.89 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 262.89 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5723efa0-83a3-4a73-999d-0724b8d72d38")
+		)
+		(instances
+			(project "Pyduino"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 204.47 96.52 90)
 		(unit 1)
@@ -18408,83 +18297,6 @@
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 262.89 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e478c9aa-c28f-4614-9a04-36b71c99d816")
-		(property "Reference" "#PWR0102"
-			(at 262.89 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 259.334 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 262.89 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6ca49c6-cf03-490b-80d8-cec8cfa25d2c")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
