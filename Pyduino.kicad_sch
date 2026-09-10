@@ -2687,146 +2687,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -9797,6 +9657,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 128.27) (xy 102.87 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd3c0e8-e52a-4041-8942-91ec1f9037af")
+	)
+	(wire
+		(pts
 			(xy 227.33 139.7) (xy 228.6 139.7)
 		)
 		(stroke
@@ -10917,7 +10787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03ec10bb-eab3-4d25-8fc1-6969c40ae8a3")
-		(property "Reference" "C5"
+		(property "Reference" "C11"
 			(at 146.05 24.1362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10992,7 +10862,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C5")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11009,7 +10879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04e3ad90-934b-4410-b98b-ab017f7f3052")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR05"
 			(at 53.34 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11070,7 +10940,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR03")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11277,7 +11147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14e1d2fc-4c84-458d-a328-dbc9ed5871ec")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR024"
 			(at 172.72 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11337,7 +11207,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0134")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -11355,7 +11225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16d78686-3af2-494b-907d-c6b7dca95268")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR031"
 			(at 238.76 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -11415,7 +11285,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR015")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11432,7 +11302,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "178a5ee2-b883-4d0e-b6b2-ba998b5d85bc")
-		(property "Reference" "C16"
+		(property "Reference" "C4"
 			(at 107.95 104.902 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11505,7 +11375,86 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C16")
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 97.79 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17c20a01-5884-412b-86d5-577fdad71994")
+		(property "Reference" "R4"
+			(at 97.536 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 93.218 127 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 97.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 97.79 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8103df2-2d98-4418-b74e-a0eca18c1b00")
+		)
+		(pin "1"
+			(uuid "53d1ca3a-f09d-40e6-b6cf-9726c7d40481")
+		)
+		(instances
+			(project "Pyduino"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -11522,7 +11471,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17c47cb2-d44a-49ec-bab8-903c7567e17b")
-		(property "Reference" "JP6"
+		(property "Reference" "JP4"
 			(at 180.34 84.328 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11585,7 +11534,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP6")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -11602,7 +11551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19082322-3599-4fbe-a720-53e2f3443ca9")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR018"
 			(at 158.75 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11662,7 +11611,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0127")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11680,7 +11629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab70632-9e62-46fe-924c-3787ebccb325")
-		(property "Reference" "C3"
+		(property "Reference" "C16"
 			(at 266.065 59.6835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11755,7 +11704,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C3")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -11772,7 +11721,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c51741d-2bf5-434e-8091-2fc0a4890ec2")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR02"
 			(at 24.13 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11832,7 +11781,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR01")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -11849,7 +11798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1eacf253-2555-4cde-ad71-7282f92293ce")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR017"
 			(at 157.48 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -11909,7 +11858,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0121")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11926,7 +11875,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f7af658-ca54-45c7-a6c9-e9887b941645")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 205.105 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11999,7 +11948,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -12017,7 +11966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2074009f-ce08-4b38-929d-6de7b4e686d0")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR06"
 			(at 59.69 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12077,7 +12026,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0132")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12094,7 +12043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2c2804a9-2a15-4792-b8cd-6c26dc24a042")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 60.96 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -12154,7 +12103,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12172,7 +12121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f95c6f3-915a-42e0-a292-015374da9010")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR016"
 			(at 156.21 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -12232,7 +12181,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR018")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12250,7 +12199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3407f376-00e3-497a-9ffd-e41a4799bdb6")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 158.75 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12332,7 +12281,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -12349,7 +12298,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "355d2562-3490-4b85-9d69-ca7ffe5d39ea")
-		(property "Reference" "R14"
+		(property "Reference" "R3"
 			(at 50.038 32.766 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12411,7 +12360,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R14")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12429,7 +12378,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "360d214c-4239-4c8d-a2fc-910325b6e04e")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 12.7 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12497,7 +12446,86 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "J2")
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 262.89 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3864b280-f2fd-4af7-89cb-d7a7bbe8c226")
+		(property "Reference" "R13"
+			(at 260.096 53.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 265.43 53.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 262.89 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6009d045-d0cc-4a51-81f3-5d19b103e921")
+		)
+		(pin "1"
+			(uuid "f93fa6ad-dc65-4735-b116-015bdf039b6d")
+		)
+		(instances
+			(project "Pyduino"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12515,7 +12543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3931052e-dc5d-46e3-9cc1-b11fd4f972be")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 162.56 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12589,7 +12617,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -12688,96 +12716,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 262.89 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3ef5b4e1-29cb-458d-b968-1b8688bc08b3")
-		(property "Reference" "R1"
-			(at 264.922 50.292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3k"
-			(at 262.89 53.34 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C17661"
-			(at 262.89 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "49c587eb-6fc9-4dad-a48b-fa7c864e0cf7")
-		)
-		(pin "2"
-			(uuid "a6ccfaf4-0836-45d6-9ec3-df178a515121")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 151.13 162.56 0)
 		(unit 1)
@@ -12789,7 +12727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4114cf16-e7a8-4a02-9cbf-6b026bf80ac8")
-		(property "Reference" "JP5"
+		(property "Reference" "JP2"
 			(at 151.13 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12852,7 +12790,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP5")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -12870,7 +12808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45b13c6e-0539-4e40-be2d-30c27a4132c0")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR015"
 			(at 143.51 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12930,7 +12868,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0122")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12949,7 +12887,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "46816075-8178-47b8-93bf-4fdb7dc2b6d0")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 256.54 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13013,7 +12951,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -13030,7 +12968,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "46a849e3-5b72-4577-95ce-598b160390f1")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 253.365 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13103,7 +13041,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13120,7 +13058,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50dd3aa7-c5c5-4ede-b186-5360160951a8")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR032"
 			(at 238.76 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -13180,7 +13118,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR029")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -13197,7 +13135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55635052-4b66-4353-ab93-c3fcaa45e239")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 128.27 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -13257,7 +13195,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -13274,7 +13212,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "569348ae-da53-4656-8ed9-2c83e60d9675")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR025"
 			(at 199.39 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13334,7 +13272,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0106")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -13352,7 +13290,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57c5240e-e2c3-40c5-afe8-ce0d1f733380")
-		(property "Reference" "JP8"
+		(property "Reference" "JP6"
 			(at 229.87 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,7 +13353,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP8")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -13432,7 +13370,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "588b283d-bae7-4bf8-9019-1f3fec74027c")
-		(property "Reference" "C14"
+		(property "Reference" "C6"
 			(at 116.84 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13496,7 +13434,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C14")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -13513,7 +13451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d1e7be0-7064-4e44-84f6-262111fd586f")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 127 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13588,7 +13526,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13605,7 +13543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e0f43b7-c08c-439b-8ca1-7c59fd6ad368")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG01"
 			(at 152.4 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -13665,7 +13603,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#FLG03")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -13683,7 +13621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ee0cf92-45a5-496b-858c-12738881d8f7")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR030"
 			(at 233.68 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13743,7 +13681,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0107")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -13760,7 +13698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5f321d83-2f44-4af7-96b8-d72f7f9defb4")
-		(property "Reference" "JP2"
+		(property "Reference" "JP1"
 			(at 52.07 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13822,7 +13760,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -13840,7 +13778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63c03f8f-a418-47ce-ba41-13be5b6049d1")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 19.05 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -13900,7 +13838,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -13917,7 +13855,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66f0e4ac-5ea9-416d-b7eb-f6a160ed7123")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR020"
 			(at 161.29 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -13977,7 +13915,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0123")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -13995,7 +13933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67452c48-2e39-416e-aa42-730225f4c18a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR033"
 			(at 242.57 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -14055,7 +13993,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0104")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14073,7 +14011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "676b7c97-7098-45f2-9be7-b347e2be07be")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR08"
 			(at 69.85 196.85 0)
 			(hide yes)
 			(show_name no)
@@ -14133,7 +14071,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR05")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14151,7 +14089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68309f3a-cf2a-4894-af00-6e1b68f9e566")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 38.1 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -14211,7 +14149,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14452,7 +14390,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6a17d5b0-b494-4df0-81f9-186d099c6e68")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 215.265 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14525,7 +14463,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -14543,7 +14481,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b65797c-84e5-4bb6-b776-9a26072d72f9")
-		(property "Reference" "C8"
+		(property "Reference" "C14"
 			(at 228.6 26.1238 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14618,7 +14556,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C8")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -14635,7 +14573,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6f6c4507-8d30-4097-87ba-ba3063b0cd50")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 191.77 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14700,7 +14638,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -14718,7 +14656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73b814da-0fec-4972-bd03-bae97346264d")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR012"
 			(at 127 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -14778,7 +14716,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0130")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14795,7 +14733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73f54c35-878a-4a33-b793-36c3dbe931cc")
-		(property "Reference" "C17"
+		(property "Reference" "C5"
 			(at 107.95 111.252 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14868,7 +14806,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C17")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -14885,7 +14823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7499db0e-f916-4af4-bd85-dfbf542b344a")
-		(property "Reference" "C9"
+		(property "Reference" "C2"
 			(at 58.42 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14960,7 +14898,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C9")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14977,7 +14915,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76dee893-eae5-473f-9183-e246ce64d332")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 266.7 98.1074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15052,7 +14990,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -15069,7 +15007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ef144cc-1387-422f-84d4-c891aa8f08d2")
-		(property "Reference" "JP1"
+		(property "Reference" "JP3"
 			(at 162.56 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15134,7 +15072,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP1")
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -15152,7 +15090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8343e233-c945-47b1-bed1-5c48a7d2118e")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR026"
 			(at 207.01 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -15212,7 +15150,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR017")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15229,7 +15167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85aa21de-88f3-4269-ba0e-01f7f9e7e20a")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR013"
 			(at 127 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15289,7 +15227,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0131")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -15306,7 +15244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "864f6cc0-d716-43de-8e31-49968d6a13a7")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR039"
 			(at 262.89 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15366,7 +15304,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0124")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -15383,7 +15321,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "87bdb663-133f-484e-8728-02d4c1560684")
-		(property "Reference" "JP7"
+		(property "Reference" "JP5"
 			(at 180.34 90.932 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15446,7 +15384,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP7")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -15463,7 +15401,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c751cc6-b9cc-47f5-9ed7-80236319c125")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 119.38 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -15523,7 +15461,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -15540,7 +15478,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "909cd821-c755-4c1f-b96c-c17fa5048474")
-		(property "Reference" "C19"
+		(property "Reference" "C8"
 			(at 116.84 137.922 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15613,7 +15551,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C19")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -15630,7 +15568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91b6246b-068f-45c5-8222-c0af34019f0f")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR034"
 			(at 255.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -15690,7 +15628,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0103")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15708,7 +15646,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9b029ec6-21a0-479a-bcba-955b381d75c4")
-		(property "Reference" "U2"
+		(property "Reference" "U4"
 			(at 240.9033 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15801,7 +15739,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "U2")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -15819,7 +15757,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9bf119ff-e802-4129-8881-127b8b78b865")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 215.9 17.145 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15895,7 +15833,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15912,7 +15850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d61025e-69f0-4132-943a-85e0e3bb260a")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR027"
 			(at 217.17 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -15972,97 +15910,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 128.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a10fde17-6091-429c-8b2f-1b8fa857341e")
-		(property "Reference" "R2"
-			(at 94.488 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.06 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.06 126.492 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25744"
-			(at 99.06 128.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7a2c5ac8-b615-4ec5-971e-7ea1b8197f14")
-		)
-		(pin "1"
-			(uuid "12581434-0b83-4971-8145-354626a8b2a4")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R2")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16080,7 +15928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5d7bf59-69eb-427b-b0db-c1d5066b3c6a")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 209.2325 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16153,7 +16001,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16170,7 +16018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a99b8eb8-7e78-420a-8ffd-63643b5875c6")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR010"
 			(at 97.79 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16230,7 +16078,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR022")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16247,7 +16095,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad73266f-c30e-41b1-bc5e-3d7b86d76e36")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 250.19 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16320,7 +16168,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -16337,7 +16185,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ae5a8ab4-d8b4-4f7b-8cac-b56373c52259")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 212.09 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16410,7 +16258,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -16427,7 +16275,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b099b540-ac25-4f37-950b-131e2c686675")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 52.07 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16502,7 +16350,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16520,7 +16368,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b2f2bb30-d859-4087-9deb-61e21f866a12")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 204.47 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16593,7 +16441,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -16703,7 +16551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e95a8b-5c92-46bb-a8c3-b8158e352a69")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR028"
 			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -16763,7 +16611,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR016")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -16780,7 +16628,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8231c69-ac3d-45cd-bdcb-e56126dc2a1e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR036"
 			(at 259.08 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16840,7 +16688,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR010")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16858,7 +16706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba16ce05-1a71-4379-b8a1-46a0ba0cd9fd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR021"
 			(at 162.56 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16918,7 +16766,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR011")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17013,7 +16861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc40ce42-58f4-4b95-970a-4215ef1a56ba")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 227.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -17073,7 +16921,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17090,7 +16938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bd7d70c1-bd1d-42c4-8dd6-e03e15a23b4f")
-		(property "Reference" "R13"
+		(property "Reference" "R2"
 			(at 49.276 25.146 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17152,7 +17000,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R13")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -17169,7 +17017,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "bdb41e27-d5e6-489c-a1b8-fa9222248947")
-		(property "Reference" "C7"
+		(property "Reference" "C13"
 			(at 203.2 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17244,7 +17092,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C7")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17261,7 +17109,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0375197-c4a5-4e53-9bdf-207efe623b08")
-		(property "Reference" "R7"
+		(property "Reference" "R14"
 			(at 260.985 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17334,7 +17182,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R7")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -17352,7 +17200,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c16d14d9-ed87-49f5-a33e-604fb6771beb")
-		(property "Reference" "J10"
+		(property "Reference" "J5"
 			(at 259.08 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17417,7 +17265,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "J10")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -17435,7 +17283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2866e31-2bc5-4bc9-b567-2efa5a4e7463")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 24.13 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17553,7 +17401,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -17570,7 +17418,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2925ccb-e9c6-45fa-b75b-d1961a2ce0ef")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR022"
 			(at 163.83 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17630,7 +17478,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0113")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -17820,7 +17668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4c943c1-1646-4ecb-93f4-4f3b65074642")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR037"
 			(at 262.89 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -17880,7 +17728,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR019")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17897,7 +17745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c50b302c-879f-4084-852d-ed539ee278ab")
-		(property "Reference" "R17"
+		(property "Reference" "R6"
 			(at 201.676 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17959,7 +17807,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R17")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -17977,7 +17825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a22f78-1e39-4714-b1cb-b87be8f1e945")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR038"
 			(at 262.89 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -18037,7 +17885,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0101")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18055,7 +17903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d43cd497-0e48-4f62-825d-617623a1499c")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 25.4 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -18115,7 +17963,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18132,7 +17980,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d7e3ac45-c3fd-4436-adbc-bf1e7ae58980")
-		(property "Reference" "R18"
+		(property "Reference" "R10"
 			(at 216.408 131.064 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18205,7 +18053,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R18")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -18222,7 +18070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dbf220ac-5c02-48fa-80b4-f4c179b6847c")
-		(property "Reference" "C18"
+		(property "Reference" "C7"
 			(at 116.84 132.842 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18295,7 +18143,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C18")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18312,7 +18160,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "de988663-4aa8-44b6-8c0f-4c187c5d04d7")
-		(property "Reference" "R15"
+		(property "Reference" "R8"
 			(at 211.836 145.288 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18385,7 +18233,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R15")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -18402,7 +18250,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfb35f46-1a22-4e15-bfcd-35e82aa43edf")
-		(property "Reference" "C12"
+		(property "Reference" "C3"
 			(at 63.5 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18477,7 +18325,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C12")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -18494,7 +18342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e178d85d-470b-4bb5-93ac-a7153c2566bf")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR035"
 			(at 259.08 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -18554,7 +18402,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0105")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18571,7 +18419,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3d115bb-01de-46ea-b774-02da53b8c741")
-		(property "Reference" "R16"
+		(property "Reference" "R5"
 			(at 204.216 91.186 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18633,7 +18481,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R16")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -18650,7 +18498,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eadcc754-bc05-40f6-ac0d-b88663dac395")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR019"
 			(at 158.75 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -18710,7 +18558,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0118")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18728,7 +18576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee03bc50-3872-4af6-8766-2754847a000e")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 173.99 25.4062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18803,7 +18651,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -18820,7 +18668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ee144bff-4708-4f49-a221-43dd33392610")
-		(property "Reference" "C11"
+		(property "Reference" "C9"
 			(at 121.92 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18895,7 +18743,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "C11")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -18992,7 +18840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f78cb4d1-dfc8-4510-b9a0-f0fbccb94cfd")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR023"
 			(at 171.45 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -19052,7 +18900,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "#PWR0120")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -19069,7 +18917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fea648ab-53d2-42be-a8ae-b1a625cc9189")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 40.386 134.112 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19142,7 +18990,7 @@
 		(instances
 			(project "Pyduino"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
