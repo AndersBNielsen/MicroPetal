@@ -5,8 +5,8 @@
 	(uuid "8d631a81-2764-4115-9853-f6135511f878")
 	(paper "A4")
 	(title_block
-		(title "Pyduino")
-		(rev "1.2")
+		(title "MicroPetal Uno")
+		(rev "R1")
 		(company "Anders B. Nielsen")
 		(comment 1 "License: https://creativecommons.org/licenses/by-nc/4.0/legalcode")
 	)
@@ -7011,6 +7011,12 @@
 		(uuid "19b351ef-49c3-49ec-a560-30679996aeac")
 	)
 	(junction
+		(at 43.18 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c3f418f-feb2-476b-9c14-f728b8f88b02")
+	)
+	(junction
 		(at 24.13 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7035,16 +7041,16 @@
 		(uuid "241ab338-f25e-4a94-a1a3-df0325f9275f")
 	)
 	(junction
-		(at 60.96 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "380cf770-f0c2-475e-8393-e8ccbd2006f8")
-	)
-	(junction
 		(at 227.33 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39a20d4b-928d-41fd-a6b3-6628041b92d7")
+	)
+	(junction
+		(at 69.85 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40b8d7d6-f51f-42a5-b5f8-252f17c0dcd3")
 	)
 	(junction
 		(at 207.01 93.98)
@@ -7077,6 +7083,12 @@
 		(uuid "5b3c690e-a503-452b-b923-fc533dd465fd")
 	)
 	(junction
+		(at 64.77 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66f6a3a3-0bfb-486b-8148-deac12c467df")
+	)
+	(junction
 		(at 207.01 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7107,10 +7119,10 @@
 		(uuid "77e3ecea-5258-4cfc-ac49-bab1e38b6e4d")
 	)
 	(junction
-		(at 66.04 97.79)
+		(at 49.53 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7db57dac-d84f-4d1b-b07d-072319823454")
+		(uuid "7b30e5cc-b09a-4cf8-9a3c-3e8726394c59")
 	)
 	(junction
 		(at 143.51 93.98)
@@ -7194,7 +7206,7 @@
 		(at 72.39 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bbfe0a48-da8b-4d5d-8198-e8b645858651")
+		(uuid "b9de9d79-674e-4d4c-8ec7-effee5dc995c")
 	)
 	(junction
 		(at 162.56 144.78)
@@ -7209,7 +7221,7 @@
 		(uuid "c5a872b0-f400-4839-bd19-189d2d2c73af")
 	)
 	(junction
-		(at 60.96 97.79)
+		(at 49.53 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c80ffbdb-f546-4224-ae1f-9f707c3f49fe")
@@ -7268,6 +7280,12 @@
 		(color 0 0 0 0)
 		(uuid "fa9146d1-87c4-4c78-a84e-6e70ee29b1b7")
 	)
+	(junction
+		(at 43.18 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fae5f28e-2d89-41f4-b1a1-1a084aad3bda")
+	)
 	(no_connect
 		(at 39.37 50.8)
 		(uuid "87ba0476-9209-4ca5-9234-bf8537dc364d")
@@ -7275,6 +7293,16 @@
 	(no_connect
 		(at 39.37 53.34)
 		(uuid "996b678d-3c7c-42f9-a5fe-75f7bf99ba45")
+	)
+	(wire
+		(pts
+			(xy 36.83 102.87) (xy 36.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002a6de7-f02a-4bf5-8b2f-d634ac75e7d9")
 	)
 	(wire
 		(pts
@@ -7309,7 +7337,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 102.87) (xy 66.04 102.87)
+			(xy 49.53 104.14) (xy 54.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7356,16 +7384,6 @@
 			(type default)
 		)
 		(uuid "037de7a9-c068-478e-998f-33b61bbab786")
-	)
-	(wire
-		(pts
-			(xy 60.96 102.87) (xy 60.96 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05315ffc-02c7-4a82-b89b-ac82b4a2bd52")
 	)
 	(wire
 		(pts
@@ -7449,16 +7467,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 101.6) (xy 69.85 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "106acfaf-3b2a-48fb-8430-ef7fb4aa0d75")
-	)
-	(wire
-		(pts
 			(xy 218.44 128.27) (xy 218.44 125.73)
 		)
 		(stroke
@@ -7479,7 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 97.79) (xy 60.96 97.79)
+			(xy 43.18 97.79) (xy 49.53 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7499,16 +7507,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 97.79) (xy 72.39 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a1b5eb7-9cf0-4fd5-9cb8-1d966297639f")
-	)
-	(wire
-		(pts
 			(xy 214.63 147.32) (xy 218.44 147.32)
 		)
 		(stroke
@@ -7516,6 +7514,16 @@
 			(type default)
 		)
 		(uuid "1b1a7574-7aea-4127-96a1-4d8a604b43d1")
+	)
+	(wire
+		(pts
+			(xy 43.18 104.14) (xy 43.18 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6ea4cb-8c10-4a63-b923-33648c612bee")
 	)
 	(wire
 		(pts
@@ -7596,6 +7604,16 @@
 			(type default)
 		)
 		(uuid "207d39a5-2dc0-4b95-a451-45a3b160599d")
+	)
+	(wire
+		(pts
+			(xy 64.77 97.79) (xy 72.39 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f28dfb-8d70-4717-bffd-b86622ae4cc7")
 	)
 	(polyline
 		(pts
@@ -7949,6 +7967,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 97.79) (xy 43.18 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4215f483-b958-4f64-b351-065595829f10")
+	)
+	(wire
+		(pts
 			(xy 90.17 147.32) (xy 93.98 147.32)
 		)
 		(stroke
@@ -8206,6 +8234,16 @@
 			(type default)
 		)
 		(uuid "60e14768-4756-4aa6-a38f-31197193580b")
+	)
+	(wire
+		(pts
+			(xy 59.69 104.14) (xy 69.85 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61a6811d-c5c1-48a1-9c60-bdd2bc8a5905")
 	)
 	(wire
 		(pts
@@ -8579,7 +8617,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 97.79) (xy 66.04 97.79)
+			(xy 49.53 97.79) (xy 64.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8719,7 +8757,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 60.96 102.87)
+			(xy 43.18 104.14) (xy 49.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8746,16 +8784,6 @@
 			(type default)
 		)
 		(uuid "9a7b9132-87e1-4456-8692-48fa195db02e")
-	)
-	(wire
-		(pts
-			(xy 154.94 162.56) (xy 156.21 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a838d77-6b60-4e4d-a691-8f06f4b16d8f")
 	)
 	(wire
 		(pts
@@ -8816,6 +8844,16 @@
 			(type default)
 		)
 		(uuid "9eac265f-5ead-412e-96c8-db34246295c8")
+	)
+	(wire
+		(pts
+			(xy 152.4 162.56) (xy 156.21 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6cbcc4-497a-406c-89c3-43f3683f6cf6")
 	)
 	(wire
 		(pts
@@ -9229,6 +9267,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 104.14) (xy 49.53 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e517fe-540b-4b30-b02e-16d0ac58e33d")
+	)
+	(wire
+		(pts
 			(xy 48.26 124.46) (xy 54.61 124.46)
 		)
 		(stroke
@@ -9356,6 +9404,16 @@
 			(type default)
 		)
 		(uuid "d176e6fe-c910-48cb-8f38-8332403ffb94")
+	)
+	(wire
+		(pts
+			(xy 36.83 104.14) (xy 43.18 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1de9bce-b66f-4557-80e5-ffb30c15a7a4")
 	)
 	(wire
 		(pts
@@ -9576,6 +9634,16 @@
 			(type default)
 		)
 		(uuid "e80408fb-4401-44ba-93e4-cb3229a838ae")
+	)
+	(wire
+		(pts
+			(xy 49.53 104.14) (xy 49.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8777dbb-ac60-4ef8-ae2f-420539593be2")
 	)
 	(wire
 		(pts
@@ -9817,6 +9885,16 @@
 			(type default)
 		)
 		(uuid "fce6d5d2-ebb1-4e1c-a0df-ef0cfc3235d2")
+	)
+	(wire
+		(pts
+			(xy 59.69 95.25) (xy 59.69 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "febc7732-1aaa-4353-8d17-a19421317a8d")
 	)
 	(label "PB11"
 		(at 93.98 170.18 0)
@@ -10873,7 +10951,7 @@
 			(uuid "899c590f-ca3e-44e3-96b4-1a5968602a29")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C11")
 					(unit 1)
@@ -10951,7 +11029,7 @@
 			(uuid "b68fe075-de06-4e8f-a6f0-ca4d967e8311")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR05")
 					(unit 1)
@@ -11044,7 +11122,7 @@
 			(uuid "aa3de063-74c8-47da-8e22-95a7f88893a2")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C15")
 					(unit 1)
@@ -11140,7 +11218,7 @@
 			(uuid "6cb09729-680a-4f97-97fe-70954b5299f1")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "Y1")
 					(unit 1)
@@ -11218,7 +11296,7 @@
 			(uuid "5060be86-7277-4e91-8232-2949ee07af18")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR024")
 					(unit 1)
@@ -11296,7 +11374,7 @@
 			(uuid "593174ab-51ed-4f3e-99fa-fd08f2aa3031")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR031")
 					(unit 1)
@@ -11386,7 +11464,7 @@
 			(uuid "34161aaa-2faa-4308-a10a-336f23c9f332")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C4")
 					(unit 1)
@@ -11425,7 +11503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 97.79 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -11458,6 +11536,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905 "
+			(at 97.79 128.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d8103df2-2d98-4418-b74e-a0eca18c1b00")
 		)
@@ -11465,7 +11554,7 @@
 			(uuid "53d1ca3a-f09d-40e6-b6cf-9726c7d40481")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R4")
 					(unit 1)
@@ -11545,7 +11634,7 @@
 			(uuid "d20c2f33-1487-4a1b-81b3-770d100f7c16")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "JP4")
 					(unit 1)
@@ -11622,7 +11711,7 @@
 			(uuid "b5abd77a-8fad-4fb1-8bb8-162c0a0e4979")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR018")
 					(unit 1)
@@ -11715,7 +11804,7 @@
 			(uuid "b543d2ff-d115-4049-94df-d46e4f738100")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C16")
 					(unit 1)
@@ -11792,7 +11881,7 @@
 			(uuid "9cf00364-8ba4-4a3b-a219-09a5c2bea16c")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR02")
 					(unit 1)
@@ -11869,7 +11958,7 @@
 			(uuid "9e76067d-830a-432d-9afa-5bdcfb10aa5d")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR017")
 					(unit 1)
@@ -11959,7 +12048,7 @@
 			(uuid "960920e5-75bf-4388-8fda-bfa198470669")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R7")
 					(unit 1)
@@ -12037,7 +12126,7 @@
 			(uuid "e17b4819-d584-409d-b697-e015f19c4d25")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR06")
 					(unit 1)
@@ -12047,7 +12136,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 104.14 0)
+		(at 49.53 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12057,7 +12146,7 @@
 		(dnp no)
 		(uuid "2c2804a9-2a15-4792-b8cd-6c26dc24a042")
 		(property "Reference" "#PWR07"
-			(at 60.96 110.49 0)
+			(at 49.53 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12068,7 +12157,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.404 105.41 0)
+			(at 45.974 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12078,7 +12167,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 104.14 0)
+			(at 49.53 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12089,7 +12178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 104.14 0)
+			(at 49.53 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12100,7 +12189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 104.14 0)
+			(at 49.53 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12114,7 +12203,7 @@
 			(uuid "e5d20ed5-1267-4aa1-b742-a4dbd59348cd")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR07")
 					(unit 1)
@@ -12192,7 +12281,7 @@
 			(uuid "c66f807e-6499-446f-bcdd-346f02a8a662")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR016")
 					(unit 1)
@@ -12292,7 +12381,7 @@
 			(uuid "28f31559-7864-4260-9f47-e034ec9e5916")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "U2")
 					(unit 1)
@@ -12331,7 +12420,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -12364,6 +12453,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905 "
+			(at 49.53 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80fa1f4b-8c2a-4e17-bf3a-f6530d181b5b")
 		)
@@ -12371,7 +12471,7 @@
 			(uuid "fc38bf78-9156-4dfd-8268-56ea7e3df1a7")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R3")
 					(unit 1)
@@ -12457,7 +12557,7 @@
 			(uuid "9f7d533c-19b9-419d-866d-bd0be9c9cbf6")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "J1")
 					(unit 1)
@@ -12496,7 +12596,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -12529,6 +12629,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905 "
+			(at 262.89 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6009d045-d0cc-4a51-81f3-5d19b103e921")
 		)
@@ -12536,7 +12647,7 @@
 			(uuid "f93fa6ad-dc65-4735-b116-015bdf039b6d")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R13")
 					(unit 1)
@@ -12628,7 +12739,7 @@
 			(uuid "a50a8c5a-4372-4210-a05d-c21797bcd82c")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "J3")
 					(unit 1)
@@ -12720,90 +12831,9 @@
 			(uuid "71520d42-b175-40da-9865-49e3f3a133e0")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 151.13 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4114cf16-e7a8-4a02-9cbf-6b026bf80ac8")
-		(property "Reference" "JP2"
-			(at 151.13 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 151.13 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 151.13 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 151.13 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1259c2cb-6c6e-4eca-81b4-a6e49eddaee1")
-		)
-		(pin "1"
-			(uuid "35bc9d67-39ab-4847-be81-f244c213c2be")
-		)
-		(instances
-			(project "Pyduino"
-				(path "/8d631a81-2764-4115-9853-f6135511f878"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -12879,7 +12909,7 @@
 			(uuid "10fdd14c-1d4d-4bfe-89cf-246f4575af98")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR015")
 					(unit 1)
@@ -12962,7 +12992,7 @@
 			(uuid "3660681b-fc78-4f2a-839b-85e761e84e45")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R11")
 					(unit 1)
@@ -12991,7 +13021,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "5k1"
 			(at 255.27 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13001,7 +13031,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13034,7 +13064,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17560"
+		(property "LCSC" "C25905 "
 			(at 255.27 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -13052,9 +13082,101 @@
 			(uuid "1bbf321a-5fe1-4cf5-bb76-697efb332c2e")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 36.83 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4dcb87b2-31ae-4550-8ea5-48cae893cf53")
+		(property "Reference" "C17"
+			(at 34.29 98.425 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 31.75 102.235 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 36.83 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b2d9dd3-320c-40c0-a8bb-a90e86dcb9fc")
+		)
+		(pin "2"
+			(uuid "c7a0fc7d-9bf7-4478-87df-d4c192b137a8")
+		)
+		(instances
+			(project "MicroPetal_Uno"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -13129,7 +13251,7 @@
 			(uuid "901ec6e0-143a-4733-9c2d-058511e44da3")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR032")
 					(unit 1)
@@ -13206,7 +13328,7 @@
 			(uuid "98723e4f-0813-4cdc-8291-9e66280c5f92")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR014")
 					(unit 1)
@@ -13283,7 +13405,7 @@
 			(uuid "5ca50962-ff37-4b4e-abb1-ad643371b7ea")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR025")
 					(unit 1)
@@ -13364,7 +13486,7 @@
 			(uuid "fbd4f3fc-e4ec-4c34-bf3b-887d604fd764")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "JP6")
 					(unit 1)
@@ -13445,7 +13567,7 @@
 			(uuid "0bea06d9-fea4-4463-b3b7-a4f05e5f276a")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C6")
 					(unit 1)
@@ -13537,7 +13659,7 @@
 			(uuid "cd023547-31f5-451e-ac61-7f8841963f26")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C10")
 					(unit 1)
@@ -13614,7 +13736,7 @@
 			(uuid "ee3ae5bb-e4a3-4473-94b1-b5f171b5c472")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#FLG01")
 					(unit 1)
@@ -13692,7 +13814,7 @@
 			(uuid "eda1390e-8171-4d6c-9ee5-7b7d66f16d37")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR030")
 					(unit 1)
@@ -13771,7 +13893,7 @@
 			(uuid "1373100f-e03c-447d-828d-bd6b20a90efc")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "JP1")
 					(unit 1)
@@ -13849,7 +13971,7 @@
 			(uuid "cebbd50b-0a2b-4463-91e8-02d59ad9d833")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR01")
 					(unit 1)
@@ -13926,7 +14048,7 @@
 			(uuid "c70b5cc0-edf7-4a5e-abdb-3ea2473262a0")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR020")
 					(unit 1)
@@ -14004,7 +14126,7 @@
 			(uuid "76856e72-c40d-4532-8b7d-8c8a309606b9")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR033")
 					(unit 1)
@@ -14082,7 +14204,7 @@
 			(uuid "5da9143c-128b-4b6b-b169-e4a0ad8607e4")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR08")
 					(unit 1)
@@ -14160,7 +14282,7 @@
 			(uuid "9e6b7512-ba31-4242-b1ee-3860d1e4c29e")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR04")
 					(unit 1)
@@ -14202,7 +14324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_6x6mm_P0.4mm_EP4.4x4.4mm"
 			(at 87.63 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -14226,6 +14348,17 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0 MCU, 128KB flash, 16KB RAM, 48 MHz, 2.0-3.6V, 37 GPIO, UFQFPN48"
+			(at 72.39 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7434410"
 			(at 72.39 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -14384,7 +14517,7 @@
 			(uuid "67322928-c16c-4c03-9323-b08c08735192")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "U1")
 					(unit 1)
@@ -14474,9 +14607,91 @@
 			(uuid "651f420c-ff58-4f75-895b-4323a0333a85")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 64.77 101.6 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6b3a2bd9-2b3e-4b63-891e-15e78683a65e")
+		(property "Reference" "JP7"
+			(at 64.77 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_3_Bridged12"
+			(at 64.77 88.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 64.77 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 64.77 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "16a7746c-8c37-48c8-948b-6709ad1d9f83")
+		)
+		(pin "1"
+			(uuid "d1aab853-2ae3-4f40-a02d-ff610b6cc58b")
+		)
+		(pin "2"
+			(uuid "f905b404-6b18-4d10-aa4c-4ab5707e4459")
+		)
+		(instances
+			(project "MicroPetal_Uno"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -14567,7 +14782,7 @@
 			(uuid "248b1dc7-54d5-435a-b4aa-1a099ab3a7ac")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C14")
 					(unit 1)
@@ -14649,7 +14864,7 @@
 			(uuid "42a14c68-2587-414b-a1f0-48e7b198f534")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "J4")
 					(unit 1)
@@ -14727,7 +14942,7 @@
 			(uuid "c09ba294-3e76-46ec-be3b-9e26a18d2f0f")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR012")
 					(unit 1)
@@ -14817,7 +15032,7 @@
 			(uuid "44402809-9cc7-4925-a120-da355e227ed5")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C5")
 					(unit 1)
@@ -14827,7 +15042,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 60.96 100.33 0)
+		(at 49.53 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14837,7 +15052,7 @@
 		(dnp no)
 		(uuid "7499db0e-f916-4af4-bd85-dfbf542b344a")
 		(property "Reference" "C2"
-			(at 58.42 98.425 0)
+			(at 46.99 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14848,7 +15063,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 55.88 102.235 0)
+			(at 44.45 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14859,7 +15074,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 60.96 100.33 0)
+			(at 49.53 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14870,7 +15085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 100.33 0)
+			(at 49.53 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +15096,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 100.33 0)
+			(at 49.53 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +15107,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 60.96 100.33 0)
+			(at 49.53 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14909,7 +15124,7 @@
 			(uuid "3253e0e2-1f92-4347-b0f6-1f39d7707a78")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C2")
 					(unit 1)
@@ -15001,7 +15216,7 @@
 			(uuid "88719b4a-96e1-4cb9-8b51-6ae38660e6ba")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "D4")
 					(unit 1)
@@ -15083,7 +15298,7 @@
 			(uuid "0904ed91-4573-464b-bb05-b89c1ab4aefd")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "JP3")
 					(unit 1)
@@ -15161,7 +15376,7 @@
 			(uuid "5779ad42-6257-4cf4-a0ee-3c0e5a8c5ba7")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR026")
 					(unit 1)
@@ -15238,7 +15453,7 @@
 			(uuid "f6184f5f-0c24-4ddb-afbd-ba193bf50509")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR013")
 					(unit 1)
@@ -15315,7 +15530,7 @@
 			(uuid "ba5a01b0-9692-4eae-9384-fff3abe60a77")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR039")
 					(unit 1)
@@ -15395,7 +15610,7 @@
 			(uuid "02acdc80-fa56-4348-8585-71a6d18bee53")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "JP5")
 					(unit 1)
@@ -15472,7 +15687,7 @@
 			(uuid "da9933a6-a141-45af-829f-ad4d1b633e0a")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR011")
 					(unit 1)
@@ -15489,7 +15704,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "909cd821-c755-4c1f-b96c-c17fa5048474")
 		(property "Reference" "C8"
 			(at 116.84 137.922 90)
@@ -15562,9 +15777,99 @@
 			(uuid "10e957ec-245d-411e-ab25-8cdd1ad20843")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 149.86 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90e548dd-9ce0-4483-a9ae-359f37fbda10")
+		(property "Reference" "R15"
+			(at 150.114 164.592 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 149.86 160.528 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 149.86 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 149.86 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25741"
+			(at 149.86 162.56 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fdefbbcf-a31b-4d41-a200-b7c73a1982d0")
+		)
+		(pin "1"
+			(uuid "59671566-f565-44cd-ac69-026adf3e3226")
+		)
+		(instances
+			(project "MicroPetal_Uno"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15639,7 +15944,7 @@
 			(uuid "5597460e-8b7e-46f6-b0af-5fa5d121af59")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR034")
 					(unit 1)
@@ -15750,7 +16055,7 @@
 			(uuid "9dab156f-7849-49a2-b6f6-c453d96b439f")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "U4")
 					(unit 1)
@@ -15844,7 +16149,7 @@
 			(uuid "0231d3b7-a2ae-44b5-b14e-29e4e6083bfd")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "U3")
 					(unit 1)
@@ -15921,7 +16226,7 @@
 			(uuid "96a17cf5-5cdd-414d-a913-e1bd35778cfb")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR027")
 					(unit 1)
@@ -16012,7 +16317,7 @@
 			(uuid "665ff020-c34f-4aba-a10a-eefe865b805b")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "D2")
 					(unit 1)
@@ -16089,7 +16394,7 @@
 			(uuid "ce7f26ec-f66d-414d-a724-5143a17195f8")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR010")
 					(unit 1)
@@ -16179,7 +16484,7 @@
 			(uuid "a09e304b-0876-4307-abc1-975d732cbba4")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "SW2")
 					(unit 1)
@@ -16269,7 +16574,7 @@
 			(uuid "63fa3b1d-cefe-4c69-86b8-52f7d95d8770")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "SW1")
 					(unit 1)
@@ -16279,7 +16584,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 54.61 100.33 0)
+		(at 43.18 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16289,7 +16594,7 @@
 		(dnp no)
 		(uuid "b099b540-ac25-4f37-950b-131e2c686675")
 		(property "Reference" "C1"
-			(at 52.07 98.425 0)
+			(at 40.64 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16300,7 +16605,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 49.53 102.235 0)
+			(at 38.1 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16311,7 +16616,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 54.61 100.33 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16322,7 +16627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 100.33 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16333,7 +16638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 100.33 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16344,7 +16649,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 54.61 100.33 0)
+			(at 43.18 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16361,7 +16666,7 @@
 			(uuid "0e281462-45e7-48de-8443-dbee1ad23ad8")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C1")
 					(unit 1)
@@ -16452,7 +16757,7 @@
 			(uuid "aa801286-9b2b-4999-8496-8c1d7e31bd14")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "D1")
 					(unit 1)
@@ -16469,7 +16774,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b2f75e4a-26f4-4b11-936d-80bef9980d19")
 		(property "Reference" "Y2"
 			(at 110.49 135.8899 90)
@@ -16544,7 +16849,7 @@
 			(uuid "7693364b-ce80-4c5c-9651-488d675f1937")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "Y2")
 					(unit 1)
@@ -16622,7 +16927,7 @@
 			(uuid "2dd640ef-fe72-42e5-9f39-5fd3f0510416")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR028")
 					(unit 1)
@@ -16699,7 +17004,7 @@
 			(uuid "7e35dcb5-ae5a-4ec1-8bf3-1915d39636be")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR036")
 					(unit 1)
@@ -16777,7 +17082,7 @@
 			(uuid "f7b5048b-3ef5-4391-8ad4-94d9bbca98ab")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR021")
 					(unit 1)
@@ -16855,7 +17160,7 @@
 			(uuid "fe0a32bf-efe4-4c4f-bf30-5af28fa66d1c")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR09")
 					(unit 1)
@@ -16932,7 +17237,7 @@
 			(uuid "f3b5a748-62a4-4bf1-89ad-2043acd07a75")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR029")
 					(unit 1)
@@ -16971,7 +17276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17004,6 +17309,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905 "
+			(at 49.53 27.94 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "80ae61d7-8539-4b69-9773-e2ed63fddd46")
 		)
@@ -17011,7 +17327,7 @@
 			(uuid "45874673-c252-4b27-817e-cc722156dfc1")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R2")
 					(unit 1)
@@ -17103,7 +17419,7 @@
 			(uuid "747ce8d9-de66-4eff-903e-f1407d0b3b55")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C13")
 					(unit 1)
@@ -17132,7 +17448,7 @@
 				)
 			)
 		)
-		(property "Value" "22k"
+		(property "Value" "5k1"
 			(at 265.176 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17142,7 +17458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 262.89 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17175,7 +17491,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C17475"
+		(property "LCSC" "C25905 "
 			(at 262.89 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -17193,7 +17509,7 @@
 			(uuid "55f3feaf-64bc-494f-890a-cc76c5998f79")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R14")
 					(unit 1)
@@ -17276,7 +17592,7 @@
 			(uuid "33a16c87-d21d-4a66-9488-13cee73fc794")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "J5")
 					(unit 1)
@@ -17412,7 +17728,7 @@
 			(uuid "e3a71c75-2a49-479d-8a56-5fbf634c54e4")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "J2")
 					(unit 1)
@@ -17489,7 +17805,7 @@
 			(uuid "70f8233c-8539-48c0-83ec-c47e357fef63")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR022")
 					(unit 1)
@@ -17661,9 +17977,86 @@
 			(uuid "158669d7-b147-44fc-9b16-1990dfbcea29")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 59.69 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c448166f-0f2c-4598-97f3-e438115f291e")
+		(property "Reference" "#PWR040"
+			(at 59.69 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 59.69 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 59.69 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcc992c9-325a-4d14-b275-2c00ebbb8d45")
+		)
+		(instances
+			(project "MicroPetal_Uno"
+				(path "/8d631a81-2764-4115-9853-f6135511f878"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17739,7 +18132,7 @@
 			(uuid "5723efa0-83a3-4a73-999d-0724b8d72d38")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR037")
 					(unit 1)
@@ -17778,7 +18171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17811,6 +18204,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905 "
+			(at 204.47 96.52 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "1ab51f4b-7de6-4d9f-a537-5a18a87b30cb")
 		)
@@ -17818,7 +18222,7 @@
 			(uuid "bceaa95a-e7a3-49aa-bba7-a9448851054d")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R6")
 					(unit 1)
@@ -17896,7 +18300,7 @@
 			(uuid "6a519c90-69ec-4925-817b-8f75eef87b9f")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR038")
 					(unit 1)
@@ -17974,7 +18378,7 @@
 			(uuid "6687dc0c-dcd0-47e0-81b9-293ff517976b")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR03")
 					(unit 1)
@@ -18064,7 +18468,7 @@
 			(uuid "49a42043-7b35-4990-a784-fc22e11b5da8")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R10")
 					(unit 1)
@@ -18081,7 +18485,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "dbf220ac-5c02-48fa-80b4-f4c179b6847c")
 		(property "Reference" "C7"
 			(at 116.84 132.842 90)
@@ -18154,7 +18558,7 @@
 			(uuid "ba71ef58-9dd1-45bd-8252-ae2f9ec4df90")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C7")
 					(unit 1)
@@ -18244,7 +18648,7 @@
 			(uuid "4d89b49d-d38a-461b-a45f-e35d1367fc8e")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R8")
 					(unit 1)
@@ -18254,7 +18658,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 66.04 100.33 0)
+		(at 57.15 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18264,7 +18668,7 @@
 		(dnp no)
 		(uuid "dfb35f46-1a22-4e15-bfcd-35e82aa43edf")
 		(property "Reference" "C3"
-			(at 63.5 98.425 0)
+			(at 55.245 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18275,7 +18679,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 62.23 102.235 0)
+			(at 58.928 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18286,7 +18690,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 66.04 100.33 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18297,7 +18701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 100.33 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18308,7 +18712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 100.33 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18319,7 +18723,7 @@
 			)
 		)
 		(property "LCSC" "C49678"
-			(at 66.04 100.33 0)
+			(at 57.15 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18336,7 +18740,7 @@
 			(uuid "188e7371-5d02-466f-a1fd-6e417fadfb3e")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C3")
 					(unit 1)
@@ -18413,7 +18817,7 @@
 			(uuid "7076d721-a83d-4580-9ebd-da022b504890")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR035")
 					(unit 1)
@@ -18452,7 +18856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 204.47 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18485,6 +18889,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C25905 "
+			(at 204.47 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "96447e12-fe16-46aa-a57a-ac72d0e83c76")
 		)
@@ -18492,7 +18907,7 @@
 			(uuid "8d803fe0-536c-484e-84be-cb118dcb6c14")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R5")
 					(unit 1)
@@ -18569,7 +18984,7 @@
 			(uuid "e341ced9-d16b-4dda-b15d-8ee632f43c97")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR019")
 					(unit 1)
@@ -18662,7 +19077,7 @@
 			(uuid "6892dfb9-7e57-4a53-a2e4-c47ce075161e")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C12")
 					(unit 1)
@@ -18754,7 +19169,7 @@
 			(uuid "a9116b68-2b60-4dfd-8a49-6ce09052a01b")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "C9")
 					(unit 1)
@@ -18833,7 +19248,7 @@
 			(uuid "9f4294b7-8a30-4b4c-beb7-f191283d2840")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "TP1")
 					(unit 1)
@@ -18911,7 +19326,7 @@
 			(uuid "08c540d6-e7a5-43b5-8a84-d2c5f7811bbd")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "#PWR023")
 					(unit 1)
@@ -19001,7 +19416,7 @@
 			(uuid "26353f1f-e2f7-4d9f-85e4-2d4f019b63a0")
 		)
 		(instances
-			(project "Pyduino"
+			(project "MicroPetal_Uno"
 				(path "/8d631a81-2764-4115-9853-f6135511f878"
 					(reference "R1")
 					(unit 1)

@@ -77,7 +77,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "footprint_type_mismatch|166772000|90424000|83aa01ec-df15-4c88-8bbd-c330e97f5cc8|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -167,7 +172,7 @@
         "min_track_width": 0.127,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -262,7 +267,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.2"
+      "sch_revision": "R1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -513,7 +518,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Pyduino.kicad_pro",
+    "filename": "MicroPetal_Uno.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -696,18 +701,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Pyduino.kicad_sch",
-        "name": "Pyduino",
+        "filename": "MicroPetal_Uno.kicad_sch",
+        "name": "MicroPetal_Uno",
         "uuid": "8d631a81-2764-4115-9853-f6135511f878"
       }
     ],
-    "used_designators": "#FLG1,Y1-2,#PWR1-39,#PWR104,#PWR121,#PWR132,#PWR134,D1-6,A1,U1-4,C1-20,SW1-3,TP1,JP1-8,R1-15,R18-20,J1-5,J10",
+    "used_designators": "#FLG1,A1,Y1-2,D1-6,#PWR1-40,#PWR104,#PWR121,#PWR132,#PWR134,U1-4,C1-20,SW1-3,TP1,JP1-8,R1-15,R18-20,J1-5,J10",
     "variants": []
   },
   "sheets": [
     [
       "8d631a81-2764-4115-9853-f6135511f878",
-      "Pyduino"
+      "MicroPetal_Uno"
     ]
   ],
   "text_variables": {},
