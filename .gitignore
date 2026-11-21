@@ -33,3 +33,13 @@ fp-info-cache
 .history/
 /_restore_backup_2026-11-03T11-03-00-827
 .DS_Store
+
+# Generated software state; retain source and portable release artifacts only.
+/software/build/
+/software/dist/
+/software/tools/.venv/
+/software/tools/bin/
+/software/platform/upload-config.json
+/software/**/.pio/
+/software/**/__pycache__/
+/software/**/platform.local.txt

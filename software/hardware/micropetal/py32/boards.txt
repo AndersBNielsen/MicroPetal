@@ -1,0 +1,10 @@
+micropetal_uno.name=MicroPetal Uno R1 (PY32F071, experimental)
+micropetal_uno.build.mcu=cortex-m0plus
+micropetal_uno.build.f_cpu=8000000L
+micropetal_uno.build.board=MICROPETAL_UNO_R1
+micropetal_uno.build.core=micropetal
+micropetal_uno.build.variant=micropetal_uno
+micropetal_uno.upload.maximum_size=131072
+micropetal_uno.upload.maximum_data_size=16384
+micropetal_uno.upload.tool=puyaisp
+micropetal_uno.upload.protocol=usb

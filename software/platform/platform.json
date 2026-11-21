@@ -1,0 +1,23 @@
+{
+  "name": "micropetal",
+  "title": "MicroPetal PY32F071",
+  "version": "0.1.0",
+  "description": "Experimental MicroPetal Uno R1 Arduino platform",
+  "homepage": "https://abnielsen.com/micropetal/",
+  "license": "MIT",
+  "engines": {
+    "platformio": "^6.1.0"
+  },
+  "frameworks": {
+    "arduino": {
+      "script": "builder/framework.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "~1.120301.0"
+    }
+  }
+}
