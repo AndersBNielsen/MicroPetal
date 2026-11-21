@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Build audio-measured scene/caption timing. No network or paid services."""
-import argparse, hashlib, json, math, shutil, subprocess, wave
+"""Build audio-measured timing using local neural TTS or supplied recordings."""
+import argparse, hashlib, json, math, os, shutil, subprocess, wave
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,6 +22,15 @@ def main():
     episode = json.loads((ROOT/'content/episode.json').read_text())
     gen = ROOT/'public/generated'; gen.mkdir(parents=True, exist_ok=True)
     out = ROOT/'out'; out.mkdir(exist_ok=True)
+    voice_source = 'recorded' if opts.voice_dir else 'macOS say (draft)'
+    if not opts.voice_dir and episode.get('voiceEngine') == 'kokoro':
+        models = os.environ.get('KOKORO_MODELS')
+        python = os.environ.get('KOKORO_PYTHON')
+        if not models or not python:
+            raise SystemExit('Set KOKORO_MODELS and KOKORO_PYTHON for local neural TTS; see README.')
+        subprocess.run([python, str(ROOT/'scripts/neural-voice.py'), '--models', models, '--voice', episode['voice']], check=True)
+        opts.voice_dir = ROOT/'out/revision2/voice'
+        voice_source = 'Kokoro ONNX / ' + episode['voice'] + ' (local neural synthetic voice)'
     fps = episode['fps']; cursor = 0; captions = []; scenes = []; scripts = []
     for scene in episode['scenes']:
         scene = dict(scene); cue_cursor = 0; chunks = []; cues = []
@@ -55,7 +64,7 @@ def main():
         scene.update({'from':cursor,'durationInFrames':length,'audio':f'generated/{audio.name}','captions':cues})
         scenes.append(scene); cursor += length
         scripts.append(f'## {scene["eyebrow"]}\n\n'+ ' '.join(scene['cues']))
-    timeline = {**episode,'scenes':scenes,'durationInFrames':cursor,'voiceSource':'recorded' if opts.voice_dir else 'macOS say (draft)'}
+    timeline = {**episode,'scenes':scenes,'durationInFrames':cursor,'voiceSource':voice_source}
     (ROOT/'src/timeline.json').write_text(json.dumps(timeline,indent=2)+'\n')
 
     with wave.open(str(out/'narration.wav'),'wb') as target:

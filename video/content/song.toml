@@ -1,0 +1,45 @@
+caption = "Witty upbeat indie electro-pop, clear bright female lead vocal, slower clean syllabic singing, no slurred syllables, crisp intelligible English diction, bouncy bass guitar, crunchy rhythm guitar, chiptune hooks, punchy drums, catchy singalong chorus, joyful nerdy workshop energy, dry humorous delivery, polished mix, vocals front and center. Short intro and clean ending."
+lyrics = """[Verse]
+Old Uno, take a bow
+You taught us all to blink
+Two K of memory
+Not much room to think
+
+[Chorus]
+Micro Petal, bigger plans
+Build it with your own two hands
+Eight times the RAM, four times the flash
+Keep the dreams and lose the crash
+
+[Verse]
+Thirty two bits in a familiar shape
+More room to build, more room to make
+Three point three volts, check before you play
+Keep the magic smoke away
+
+[Chorus]
+Micro Petal, bigger plans
+Build it with your own two hands
+Eight times the RAM, four times the flash
+Keep the dreams and lose the crash
+
+[Outro]
+Open source, a brand new day
+Old Uno, you led the way
+"""
+duration = 85
+bpm = 124
+keyscale = "D major"
+vocal_language = "en"
+audio_format = "wav"
+seed = 328072
+batch_size = 1
+thinking = false
+use_cot_metas = false
+use_cot_caption = false
+use_cot_lyrics = false
+use_cot_language = false
+config_path = "acestep-v15-turbo"
+device = "mps"
+inference_steps = 8
+save_dir = "out/revision2/song"
