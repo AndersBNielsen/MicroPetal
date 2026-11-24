@@ -31,4 +31,4 @@ if not args.no_arduino:
  shutil.copytree(ROOT/'hardware/micropetal/py32',target)
  (target/'platform.local.txt').write_text('compiler.path='+toolchain.as_posix()+'/bin/\ntools.puyaisp.cmd='+uploader.as_posix()+'\n')
  print('Arduino board installed at',target,'\nRestart Arduino IDE; choose MicroPetal Uno R1.')
-print('PlatformIO tools:',bin,'\nUSB uploader installed. Board upload has not been tested on hardware.')
+print('PlatformIO tools:',bin,'\nUSB-HID uploader:',uploader)

@@ -1,6 +1,21 @@
 # Verification — 21 November 2026
 
-**10/10 checks pass. No hardware execution tests have been performed.**
+**10/10 compile checks pass.** Hardware results are recorded only in [BRINGUP.md](BRINGUP.md) (USB-HID upload of Blink verified 23 November 2026; other physical checks pending).
+
+## Fresh-user install check — 24 November 2026
+
+The release ZIP was extracted to an empty folder and installed exactly as the beginner guides say (`tools/install.py --sketchbook <empty sketchbook>`, then `--no-arduino`, then a second `--sketchbook` run), with a private PlatformIO core and Arduino CLI 1.1.1 as bundled with Arduino IDE 2 (macOS, Apple Silicon). Results:
+
+- Installer: pinned toolchain, PlatformIO 6.1.19 and puyaisp 1.6.0 installed into `tools/.venv`; rerun preserved the old board install under `micropetal-backups`.
+- Arduino: board listed as `micropetal:py32:micropetal_uno`; all six File → Examples → MicroPetal sketches and CompileSmoke compile with `--warnings all` and no warnings. Installed examples are identical to `examples/`.
+- PlatformIO: shipped `examples/platformio`, `tests/platformio`, and a project per example in another folder using an absolute `symlink://` platform path all build.
+- `tools/verify.py` against the fresh install: 10/10 PASS.
+- Upload commands, captured with a recording stand-in for puyaisp (no USB access): `arduino-cli upload` with **no port** and `pio run -t upload` both run `<package>/tools/.venv/bin/puyaisp -t hid -f <build>.bin`.
+- Arduino Blink, PlatformIO Blink and `firmware/Blink.bin` are byte-identical (SHA-256 `c7fb1461…a29d`), the binary that was uploaded to a board on 23 November.
+
+`scripts/hw-test.sh` (repository only) repeats the uploads on hardware through both IDE paths and restores the previous flash contents afterwards.
+
+## Compile checks — 21 November 2026
 
 Host: macOS / Apple Silicon. Arduino CLI 1.6.0, PlatformIO 6.1.19, GCC Arm 12.3.1 (package 1.120301.0). No warning/error diagnostics in the final compile logs.
 

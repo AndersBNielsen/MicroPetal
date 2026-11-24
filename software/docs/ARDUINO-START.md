@@ -4,7 +4,7 @@ These instructions target the initial **PY32F071** assembly. The board also supp
 
 You will make MicroPetal's green LED blink. No breadboard or extra LED is needed.
 
-**Status:** the sketch compiles with Arduino CLI using this hardware package. Physical USB enumeration, upload and Blink still need validation when the board arrives.
+**Status:** the sketch compiles with Arduino CLI using this hardware package, and the identical Blink binary was written and readback-verified on a real board through the factory USB-HID loader (macOS, 23 November 2026). Uploading with the Arduino IDE's own Upload button, and Windows/Linux hosts, have not yet been tried on hardware.
 
 If using a repository checkout instead of the ZIP, open a terminal in its `software/` directory. All paths and commands below are relative to that directory.
 
@@ -61,7 +61,7 @@ Click **Verify** (the check mark). It should compile. Unlike an Uno, this board'
 4. Click **Upload** (right arrow). The recipe calls `puyaisp -t hid -f ...bin`, which writes and verifies the sketch.
 5. After success, disconnect USB, remove J3 3–4, then reconnect USB. The LED should blink twice per second (one full on/off cycle per second).
 
-**Do not use SW1 BTN as BOOT; it is an ordinary D12 button. No serial port selection is needed for HID upload.** The ROM loader remains in the chip, so you can repeat these steps even after a bad sketch. This upload path is prepared, not yet board-tested.
+**Do not use SW1 BTN as BOOT; it is an ordinary D12 button. No serial port selection is needed for HID upload.** The ROM loader remains in the chip, so you can repeat these steps even after a bad sketch. The uploader command has worked on a board; the IDE Upload button with no port selected is still to be confirmed in the IDE itself (Arduino CLI accepts it).
 
 ## 5. Try the button and analog input
 

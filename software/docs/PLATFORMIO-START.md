@@ -4,7 +4,7 @@ These instructions target the initial **PY32F071** assembly. The board also supp
 
 Goal: compile and upload the same blinking-LED program, with files organized as a small project.
 
-**Status:** local platform and API smoke examples compile under PlatformIO. Hardware uploads remain untested.
+**Status:** the local platform and examples compile under PlatformIO. Blink from `examples/platformio` was written and readback-verified on a real board with the direct `puyaisp` command shown in section 4 (macOS, 23 November 2026). The Upload button / `pio run -t upload` runs that same command but has not yet been run on hardware.
 
 If using a repository checkout instead of the ZIP, open a terminal in its `software/` directory. All paths and commands below are relative to that directory.
 
@@ -40,7 +40,7 @@ framework = arduino
 monitor_speed = 115200
 ```
 
-The relative platform path assumes you open the included example in its original location. For your own project elsewhere, replace it with a path to the extracted `platform` folder, e.g. `platform = symlink:///absolute/path/MicroPetal/platform` (Windows: `symlink://C:/path/MicroPetal/platform`). Keep the package around: the local platform is not registered in PlatformIO's public registry.
+The relative platform path assumes you open the included example in its original location. For your own project elsewhere, replace it with a path to the extracted `platform` folder, e.g. `platform = symlink:///absolute/path/MicroPetal-Uno-R1/platform` (Windows: `symlink://C:/path/MicroPetal-Uno-R1/platform`). Keep the package around: the local platform is not registered in PlatformIO's public registry.
 
 `src/main.cpp`:
 

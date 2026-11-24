@@ -5,7 +5,7 @@ The board also supports PY32F072, but **F071 is the initial assembly/software ta
 
 Uses the official ArduinoCore-API and Puya F07x HAL, rather than pretending this chip is an F030 or STM32. Normal `setup()` / `loop()` sketches; no Arduino Uno/AVR bootloader.
 
-**Software compiled on Apple Silicon; not hardware-tested.** Boards are expected next week. Read the first-power instructions before connecting one.
+**Partly hardware-tested.** On 23 November 2026 one F071 board enumerated as the factory USB-HID loader on macOS (Apple Silicon) and Blink was written and readback-verified with `puyaisp` ([details](docs/BRINGUP.md)). The Arduino IDE / PlatformIO **Upload** buttons, LED timing and the other peripherals are not yet confirmed on hardware. Read the first-power instructions before connecting a board.
 
 - [Arduino IDE beginner guide](docs/ARDUINO-START.md)
 - [PlatformIO beginner guide](docs/PLATFORMIO-START.md)
