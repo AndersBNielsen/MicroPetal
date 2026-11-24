@@ -43,4 +43,4 @@ fp-info-cache
 /software/**/.pio/
 /software/**/__pycache__/
 /software/**/platform.local.txt
-video/
+/video

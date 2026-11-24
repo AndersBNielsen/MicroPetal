@@ -13,7 +13,6 @@ The experimental Arduino core, PlatformIO platform, tools and examples live in [
 - [Arduino beginner guide](software/docs/ARDUINO-START.md)
 - [PlatformIO beginner guide](software/docs/PLATFORMIO-START.md)
 - [Schematic analysis and first-power instructions](software/docs/SCHEMATIC-ANALYSIS.md)
-- [Hardware bring-up checklist](software/docs/BRINGUP.md)
 
 **Before first power-on, read the jumper instructions: the fitted SN65HVD230 requires a 3.3 V supply.** Software is compile-tested, not yet hardware-validated.
 

@@ -7,5 +7,5 @@
 - Keep hardware and public website untouched unless separately requested.
 - The platform/hardware symlink shares one Arduino core; release ZIP must dereference it for cross-platform extraction.
 - After core/platform edits, run tools/check_hardware_mapping.py and tools/verify.py using an isolated installed Arduino sketchbook; see docs/VERIFICATION.md.
-- Never upload the compile-only smoke sketch as a first-run example. Physical tests remain pending until recorded in docs/BRINGUP.md.
+- Never upload the compile-only smoke sketch as a first-run example. Physical tests remain pending until recorded in docs/VERIFICATION.md.
 - Preserve third-party license notices. No secrets, host-specific configs, virtualenvs or upstream .git directories in release archives.

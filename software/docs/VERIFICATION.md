@@ -1,6 +1,6 @@
 # Verification — 21 November 2026
 
-**10/10 compile checks pass.** Hardware results are recorded only in [BRINGUP.md](BRINGUP.md) (USB-HID upload of Blink verified 23 November 2026; other physical checks pending).
+**10/10 compile checks pass.** USB-HID upload and readback of Blink were verified on 23 November 2026; other physical checks remain pending.
 
 ## Fresh-user install check — 24 November 2026
 
@@ -62,4 +62,4 @@ python3 tools/check_hardware_mapping.py --netlist /tmp/micropetal.net.xml
 
 Without a netlist, the checker verifies the retained expected mapping plus device vectors; the portable release ZIP excludes CAD. PCB pad mapping was additionally inspected locally; the duplicate schematic pin-35 inconsistency is documented separately.
 
-Physical acceptance criteria: [BRINGUP.md](BRINGUP.md). Do not describe this release as hardware-tested until those results are recorded.
+Physical acceptance still requires recorded runtime/peripheral measurements. Do not describe compile or flash-readback checks as complete hardware validation.
