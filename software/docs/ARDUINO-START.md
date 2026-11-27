@@ -10,9 +10,9 @@ If using a repository checkout instead of the ZIP, open a terminal in its `softw
 
 ## 1. Prepare the board (before USB)
 
-Read [the power/jumper instructions](SCHEMATIC-ANALYSIS.md). With power off, change **JP3 from 1–2 to 2–3**, selecting 3.3 V. Leave JP7 1–2 and JP4/JP5/JP6 open. Check that +5V and +3V3 are not shorted. Do not skip this: the fitted CAN transceiver is not specified for a 5 V supply.
+Read [the power/jumper reference](SCHEMATIC-ANALYSIS.md#power-selection-and-jumpers). No JP3 change is required for Blink. Leave JP7 1–2 and JP4/JP5/JP6 open. Disconnect all power before changing jumpers.
 
-Use a USB **data** cable, not a charge-only cable. Leave shields and the barrel supply disconnected. At first power-up check VCC is about 3.3 V before continuing.
+Use a USB **data** cable, not a charge-only cable. Leave shields and the barrel supply disconnected. At first power-up check VCC matches the JP3 selection before continuing.
 
 ## 2. Install the software (once)
 
@@ -82,7 +82,7 @@ Open Serial Monitor on the **adapter's** port at 115200 baud. `Serial` is USART3
 
 - **Board absent from menu:** check Sketchbook location, restart IDE, and confirm `hardware/micropetal/py32/boards.txt` exists there.
 - **Compiler/uploader missing:** rerun the installer from the final extracted folder; moving it afterward breaks the absolute tool path. It will preserve the previous board install.
-- **No HID device:** check the data cable, J3 3–4, reset, 3.3 V supply, and actual MCU marking. BTN does not enable ISP. Try unplug/replug with the BOOT shunt fitted.
+- **No HID device:** check the data cable, J3 3–4, reset, selected VCC supply, and actual MCU marking. BTN does not enable ISP. Try unplug/replug with the BOOT shunt fitted.
 - **Port menu empty:** normal for factory HID programming; only the optional UART adapter creates a serial port.
 - **Upload denied on Linux:** install a narrow udev rule for USB `ffff:0448` / hidraw access using the distro's instructions, then replug. Avoid running the IDE as root. Windows may need the HID backend dependencies supplied by hidapi; do not replace the device driver with a serial driver.
 - **LED reversed/faint:** active-low and 22k series resistor; use `LED_ON` / `LED_OFF`.

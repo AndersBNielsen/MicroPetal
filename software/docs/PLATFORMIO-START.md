@@ -10,7 +10,7 @@ If using a repository checkout instead of the ZIP, open a terminal in its `softw
 
 ## 1. Board preparation
 
-Follow [the power/jumper instructions](SCHEMATIC-ANALYSIS.md) **before power-on**: JP3 must select 3.3 V (open 1–2, close 2–3); JP7 remains 1–2. Leave JP4/JP5/JP6 open. Use USB only and no shield for first bring-up. Confirm VCC measures about 3.3 V.
+Read [the power/jumper reference](SCHEMATIC-ANALYSIS.md#power-selection-and-jumpers) before power-on. No JP3 change is required for Blink; JP7 remains 1–2. Leave JP4/JP5/JP6 open. Use USB only and no shield for first bring-up. Confirm VCC matches the JP3 selection.
 
 ## 2. Install tools
 

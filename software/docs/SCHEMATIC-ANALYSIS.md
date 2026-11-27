@@ -2,13 +2,11 @@
 
 Analyzed 21 November 2026 from the repository's `../MicroPetal_Uno.kicad_sch` and matching-named PCB. Schematic exported with KiCad 10 CLI; pin mapping also checked against PCB pads. The `production` files were not used to certify what the manufacturer actually built; confirm the arrived assembly/MCU marking matches these source files.
 
-## Before the first USB connection: VCC must be 3.3 V
+## Power selection and jumpers
 
-**JP3 defaults 1–2 closed, selecting +5 V for VCC. U4 SN65HVD230 is powered by VCC but is specified for 3.0–3.6 V operation.** The MCU itself supports a wider supply, but that does not make the complete assembly a 5 V board. This is out of U4's recommended operating range, not a claim that 5 V exceeds its absolute maximum.
+JP3 selects VCC: **1–2 = +5 V (default)**, **2–3 = +3V3**. JP7 selects VCCA: **1–2 = VCC (default)**, **2–3 = +3V3**. Choose the supply configuration to match the peripherals and signal levels used; no JP3 change is required by these starter guides.
 
-With all power disconnected, cut/open JP3 **1–2** and bridge **2–3**. Confirm +5V is not shorted to +3V3. Leave JP7 at its default 1–2 connection so VCCA follows VCC (now 3.3 V). Use a meter to verify the jumper modification. A first current-limited power-up and measurement of VCC near 3.3 V is recommended. Treat all header I/O as **3.3 V** in these guides. Do not connect a 5 V-output shield directly.
-
-JP3 pins: 1 = +5V, 2 = VCC, 3 = +3V3. JP7: 1 = VCCA, 2 = VCC, 3 = +3V3. Verify pad identity from CAD/continuity, not assumed left/right orientation.
+Disconnect all power before changing jumpers. Never bridge both JP3 supply selections or short +5V to +3V3. Verify pad identity from CAD/continuity, not assumed left/right orientation. Measure VCC and VCCA before connecting external peripherals; match their supply and I/O levels to the selected rails.
 
 ## Programming
 
@@ -56,5 +54,4 @@ U4 is routed to PB8/PB9 (D8/D9). However, the **PY32F071 has no CAN controller**
 ## References
 
 - [Puya PY32F071 datasheet, V1.4](https://www.puyasemi.com/download_path/%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C/MCU%20%E5%BE%AE%E5%A4%84%E7%90%86%E5%99%A8/PY32F071%E7%B3%BB%E5%88%97%E6%95%B0%E6%8D%AE%E6%89%8B%E5%86%8C_V1.4.pdf): device table, QFN48 pinout, AF tables, supply limits. Targets non-E F071 as named in the CAD; do not substitute an -E datasheet unnoticed.
-- [TI SN65HVD230 datasheet](https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf): recommended supply 3.0–3.6 V.
 - [Puya ISP uploader](https://github.com/wagiminator/MCU-Flash-Tools), `puyaisp` 1.6.0: F071 USB-HID protocol; use the board-specific PF8/J3 wiring above, not the uploader README's generic PF4 example.

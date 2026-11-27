@@ -19,7 +19,3 @@ The experimental Arduino core, PlatformIO platform, tools and examples live in [
 Software is compile-tested, not yet hardware-validated.
 
 Run software commands from `software/`, e.g. `cd software` before following either guide.
-
-## Explainer video
-
-The reusable local narration and Remotion workflow lives in [`video/`](video/README.md). It produces a short MicroPetal explainer, captions, thumbnail and draft YouTube description without publishing or paid APIs.
