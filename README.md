@@ -1,5 +1,7 @@
 # MicroPetal Uno R1
 
+[Get the MicroPetal Uno R1 Founders Edition at iMania](https://www.imania.dk/micropetal-uno-r1-founders-edition.htm).
+
 ![MicroPetal Uno R1 board, top side](docs/images/micropetal-uno-r1.jpg)
 
 Arduino Uno-format board accommodating PY32F071 and PY32F072. The initial assembly and software target is **PY32F071C1BU6**; F072 software support is not implemented yet.
@@ -22,6 +24,8 @@ Run software commands from `software/`, e.g. `cd software` before following eith
 
 
 ## Getting a PCB
+
+Prefer a ready-made board? [Get the MicroPetal Uno R1 Founders Edition at iMania](https://www.imania.dk/micropetal-uno-r1-founders-edition.htm). To manufacture your own, use the files in [`production/`](production/).
 This project is kindly sponsored by JLCPCB. They offer cheap, professional looking PCBs and super fast delivery.
 
 Step 1: Get the gerber file zip package from the /hardware folder

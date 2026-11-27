@@ -1,5 +1,7 @@
 # Start with Arduino IDE
 
+[Get the MicroPetal Uno R1 Founders Edition at iMania](https://www.imania.dk/micropetal-uno-r1-founders-edition.htm).
+
 These instructions target the initial **PY32F071** assembly. The board also supports F072, but this software release does not yet support that variant.
 
 You will make MicroPetal's green LED blink. No breadboard or extra LED is needed.

@@ -1,5 +1,7 @@
 # Start with PlatformIO in VS Code
 
+[Get the MicroPetal Uno R1 Founders Edition at iMania](https://www.imania.dk/micropetal-uno-r1-founders-edition.htm).
+
 These instructions target the initial **PY32F071** assembly. The board also supports F072, but this software release does not yet support that variant.
 
 Goal: compile and upload the same blinking-LED program, with files organized as a small project.

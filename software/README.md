@@ -1,5 +1,7 @@
 # MicroPetal Uno R1 — Arduino + PlatformIO
 
+[Get the MicroPetal Uno R1 Founders Edition at iMania](https://www.imania.dk/micropetal-uno-r1-founders-edition.htm).
+
 Experimental **0.1.0** board support for the PY32F071C1BU6, 128 KB flash / 16 KB SRAM.
 The board also supports PY32F072, but **F071 is the initial assembly/software target**. F072 support is not implemented or validated in this release; its CAN option is not an F071 board defect.
 
@@ -9,7 +11,7 @@ Uses the official ArduinoCore-API and Puya F07x HAL, rather than pretending this
 
 - [Arduino IDE beginner guide](docs/ARDUINO-START.md)
 - [PlatformIO beginner guide](docs/PLATFORMIO-START.md)
-- [Schematic analysis and power corrections](docs/SCHEMATIC-ANALYSIS.md)
+- [Schematic analysis and power selection](docs/SCHEMATIC-ANALYSIS.md)
 - [Pinout and implemented API](docs/PINOUT.md)
 - [Verification results](docs/VERIFICATION.md)
 - [Licenses and upstream sources](THIRD-PARTY.md)
