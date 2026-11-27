@@ -44,3 +44,6 @@ fp-info-cache
 /software/**/__pycache__/
 /software/**/platform.local.txt
 /video
+
+# Track manufacturing CSV exports in production.
+!/production/*.csv
